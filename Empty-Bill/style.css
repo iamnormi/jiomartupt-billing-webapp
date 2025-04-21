@@ -1,0 +1,179 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 20px;
+    padding: 0;
+  }
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+ .logo-left img{
+        height: 100px;
+        width: auto;
+      
+  }
+.logo-right img {
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .header-main {
+    flex-grow: 1;
+    position: relative;
+  }
+  .wa-img {
+    padding-right: 5px;
+    height: 20px;
+    width: 20px;
+  }
+
+
+  .header-main h1 {
+    color: red;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .address-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .address-date .address {
+    padding-left: 100px;
+    margin: 0;
+    font-weight: bold;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .address-date .date {
+    white-space: nowrap;
+    font-weight: normal;
+    text-align: right;
+  }
+  
+  .gstn {
+    margin: 0;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .contact {
+    text-align: right;
+    font-size: 14px;
+    white-space: nowrap;
+  }  
+  .warranty-customer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+  }
+  
+  .warranty h4 {
+    margin: 0 0 10px;
+  }
+  
+  .warranty-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .customer-info > div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .label {
+    font-weight: bold;
+    min-width: 80px;
+    color: #000;
+  }
+  
+  .dots {
+    flex-grow: 1;
+    margin: 0 5px;
+    font-family: monospace;
+  }
+  .particulars-section {
+    border: 1px solid #999;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .section-header {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .entry-line {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+  }
+  
+  .entry-line span {
+    white-space: nowrap;
+  }
+  
+  .dots {
+    flex: 1;
+    border-bottom: 1px dotted #000;
+    margin-left: 10px;
+  }
+  
+  .dots.short {
+    flex: 0 0 40%;
+    border-bottom: 1px dotted #000;
+    margin: 0 10px;
+  }
+  
+  .invoice-total {
+    text-align: right;
+    font-weight: bold;
+    color: red;
+    border-top: 1px solid #999;
+    margin-top: 12px;
+    padding-top: 5px;
+  }
+  
+  
+  .terms {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 1.6;
+  }
+  
+  .signature {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-weight: bold;
+    color: red;
+  }
+  

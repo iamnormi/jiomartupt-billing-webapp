@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jio Mart Digital & Home Appliances - Invoice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="logo-left">
+        <img src="jio-logo.png" alt="Left Logo">
+      </div>
+      <div class="logo-right">
+        <img src="rl-logo.jpg" alt="Right Logo">
+      </div>
+    <div class="header">
+      <div class="header-top">
+        <div class="header-main">
+          <h1>JIO MART DIGITAL & HOME APPLIANCES</h1>
+          <div class="address-date">
+            <p class="address">
+              <strong>NO.3, TOWN Panchayath Complex, Bus Stand, Ulundurpet - 606107</strong>
+            </p>
+            <!-- Replace dots with an input -->
+            <span class="date">
+              DATE:
+              <input type="text" class="date-input" placeholder="DD/MM/YYYY">
+            </span>
+          </div>
+          <p class="gstn">GSTN: 33AABCR1718E1ZW</p>
+        </div>
+        <div class="contact">
+          <p><strong>Mob:</strong><br><strong>
+            <img class="wa-img" src="whatsapp.svg" alt="Whatsapp">9751424344,</strong><br><strong>9047424344</strong></p>
+        </div>
+      </div>
+        </div>
+      </div>
+
+<div class="warranty-customer">
+  <!-- Warranty Section -->
+  <div class="warranty">
+    <h4>Company warranty for:</h4>
+    <div class="warranty-item">
+      <label for="handset" class="label">Hand Set:</label>
+      <input type="text" id="handset" class="input-short" placeholder="e.g. 12">
+      <span>Months</span>
+    </div>
+    <div class="warranty-item">
+      <label for="charger" class="label">Charger:</label>
+      <input type="text" id="charger" class="input-short" placeholder="e.g. 6">
+      <span>Months</span>
+    </div>
+    <div class="warranty-item">
+      <label for="battery" class="label">Battery:</label>
+      <input type="text" id="battery" class="input-short" placeholder="e.g. 6">
+      <span>Months</span>
+    </div>
+  </div>
+
+  <!-- Customer Info Section -->
+  <div class="customer-info">
+    <h4>Customer Information:</h4>
+    <div>
+      <label for="cust-name" class="label">NAME:</label>
+      <input type="text" id="cust-name" class="input-long" placeholder="Customer Name">
+    </div>
+    <div>
+      <label for="cust-address" class="label">ADDRESS:</label>
+      <input type="text" id="cust-address" class="input-long" placeholder="Customer Address">
+    </div>
+    <div>
+      <label for="cust-mobile" class="label">MOB. NO:</label>
+      <input type="text" id="cust-mobile" class="input-long" placeholder="Customer Mobile No">
+    </div>
+  </div>
+</div>
+
+
+<form class="particulars-section">
+  <div class="section-header">Particulars</div>
+
+  <div class="entry-line">
+    <label for="model">MODEL:</label>
+    <input type="text" id="model" name="model" class="input-line">
+  </div>
+
+  <div class="entry-line">
+    <label for="imei1">IMEI No.1:</label>
+    <input type="text" id="imei1" name="imei1" class="input-short">
+    <label for="imei2">IMEI No.2:</label>
+    <input type="text" id="imei2" name="imei2" class="input-short">
+  </div>
+
+  <div class="entry-line">
+    <label for="charger-serial">Cha S.No:</label>
+    <input type="text" id="charger-serial" name="charger_serial" class="input-line">
+  </div>
+
+  <div class="entry-line">
+    <label for="battery-serial">Batt. S.No:</label>
+    <input type="text" id="battery-serial" name="battery_serial" class="input-line">
+  </div>
+
+  <div class="entry-line">
+    <label for="colour">Colour:</label>
+    <input type="text" id="colour" name="colour" class="input-line">
+  </div>
+
+  <div class="invoice-total">
+    <label for="invoice-amount">INVOICE AMOUNT =</label>
+    <input type="text" id="invoice-amount" name="invoice_amount" class="input-line">
+  </div>
+</form>
+
+      
+    <div class="terms">
+        ❖ விற்ற பொருள் வாபஸ் கிடையாது. வாரண்டியில் வாங்கும் மொபைல்கள் அனைத்தும் அங்கீகரிக்கப்பட்ட சர்வீஸ் சென்டரில்
+        தாங்களே நேரில் சென்று சர்வீஸ் செய்து கொள்ளவும். தண்ணீர், நெருப்பு, கீழே விழுதல், உடைத்தல் போன்றவைகளுக்கு சர்வீஸ்
+        மற்றும் மாற்றுதவைகளான வாரண்டி முற்றிலும் கிடையாது.
+        <br><br>
+        ...நன்றி மீண்டும் வருக...
+    </div>
+
+    <div class="signature">
+        <div>Owners Signature</div>
+        <div>Customer Signature</div>
+    </div>
+    <script src="./files/script.js"></script>
+</body>
+
+</html>
