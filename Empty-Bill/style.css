@@ -18,6 +18,9 @@ body {
         width: auto;
       
   }
+.in-sno {
+    align-items: center;
+}
 .logo-right img {
     height: 100px;
     position: absolute;
