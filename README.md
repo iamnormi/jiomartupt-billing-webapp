@@ -1,4 +1,4 @@
-# jmtbill-upt
+# jiomartupt-billing-webapp
 JioMart Ulundurpet Billing System.
 
 ## Output from Empty Bill:
