@@ -7,7 +7,7 @@
 ![1](out-pix/srb1.jpg)
 ![2](out-pix/srb2.jpg)
 
-## Dev = Normi
+## Dev = Vinod Kumar
 These codes was maintained by [**iamNormi**](https://github.com/iamNormi).
 
 [![iamNormi](https://github.com/iamNormi.png?size=100)](https://github.com/iamNormi) |
