@@ -1,5 +1,4 @@
-# jiomartupt-billing-webapp
-JioMart Ulundurpet Billing System.
+# JioMart Ulundurpet Billing System.
 
 ## Output from Empty Bill:
 ![1](out-pix/eb1.jpg)
